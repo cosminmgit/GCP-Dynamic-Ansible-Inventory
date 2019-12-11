@@ -36,3 +36,5 @@ ansible -i inventory tag_webserver -m ping
 When calling the tagged servers, append "tag" in front of the actual nametag.
 In playbooks, use this for hosts.
 EX: hosts: tag_webserver
+
+TIP: Change "StrictHostKeyChecking no" on the control node so you don't get asked for prompt when connecting for the first time.
