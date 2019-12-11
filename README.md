@@ -24,6 +24,8 @@ Dir structure will look like:
 Modify gce.ini to your needs.
 
 ###############
+If you want to call all hosts from a zone
+ansible -i ansible/inventory europe-west2-a -m ping
 
 If you want to filter your instances, you can add network tags.
 Ex: webserver
