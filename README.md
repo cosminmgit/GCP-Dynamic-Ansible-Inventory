@@ -38,3 +38,16 @@ In playbooks, use this for hosts.
 EX: hosts: tag_webserver
 
 TIP: Change "StrictHostKeyChecking no" on the control node so you don't get asked for prompt when connecting for the first time.
+
+###############
+
+
+
+
+
+
+
+###############
+
+References
+https://medium.com/@Temikus/ansible-gcp-module-bootstrap-5b0c9139aef8
